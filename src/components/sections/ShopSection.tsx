@@ -15,7 +15,7 @@ const products = [
     originalPrice: null,
     quantity: "1 StickTag",
     description: "Perfect for trying out our revolutionary tracking technology",
-    features: ["Ultra-thin 0.8mm design", "1-year battery life", "Bluetooth connectivity", "iOS & Android app"],
+    features: ["Ultra-thin 1.6mm design", "1-year battery life", "Bluetooth connectivity", "iOS & Android app"],
     badge: null,
     popular: false,
     image: singlePack
@@ -27,7 +27,7 @@ const products = [
     originalPrice: 44.97,
     quantity: "3 StickTags",
     description: "Most popular choice - track your essential items",
-    features: ["Ultra-thin 0.8mm design", "1-year battery life", "Bluetooth connectivity", "iOS & Android app", "Save $5"],
+    features: ["Ultra-thin 1.6mm design", "1-year battery life", "Bluetooth connectivity", "iOS & Android app", "Save $5"],
     badge: "Best Value",
     popular: true,
     image: threePack
@@ -39,7 +39,7 @@ const products = [
     originalPrice: 74.95,
     quantity: "5 StickTags",
     description: "Maximum protection for all your valuable items",
-    features: ["Ultra-thin 0.8mm design", "1-year battery life", "Bluetooth connectivity", "iOS & Android app", "Save $15"],
+    features: ["Ultra-thin 1.6mm design", "1-year battery life", "Bluetooth connectivity", "iOS & Android app", "Save $15"],
     badge: "Bundle & Save",
     popular: false,
     image: fivePack

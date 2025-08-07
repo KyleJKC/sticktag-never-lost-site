@@ -3,7 +3,7 @@ import { Check, X } from "lucide-react";
 const comparisonData = [
   {
     feature: "Thickness",
-    sticktag: "0.8mm",
+    sticktag: "1.6mm",
     airtag: "8mm",
     tile: "5.3mm"
   },
@@ -21,18 +21,18 @@ const comparisonData = [
   },
   {
     feature: "Battery Life",
-    sticktag: "1 year",
+    sticktag: "6 mo - 1 year",
     airtag: "1 year",
     tile: "3 years"
   },
   {
-    feature: "Replaceable",
+    feature: "Easily Replaceable",
     sticktag: true,
     airtag: false,
     tile: false
   },
   {
-    feature: "Perfect for Wallets",
+    feature: "Perfect for Small Items",
     sticktag: true,
     airtag: false,
     tile: false

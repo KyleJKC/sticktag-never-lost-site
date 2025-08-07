@@ -4,7 +4,7 @@ const features = [
   {
     icon: Layers,
     title: "Ultra Thin Design",
-    description: "Just 0.8mm thick - thinner than a credit card. Fits anywhere without adding bulk."
+    description: "Just 1.6mm thick - thinner than a credit card. Fits anywhere without adding bulk."
   },
   {
     icon: Zap,
