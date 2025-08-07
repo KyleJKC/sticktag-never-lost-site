@@ -3,6 +3,10 @@ import { Badge } from "@/components/ui/badge";
 import { Check } from "lucide-react";
 import heroImage from "@/assets/sticktag-hero.jpg";
 
+import singlePack from "@/assets/one.png";
+import threePack from "@/assets/three.png";
+import fivePack from "@/assets/five.png";
+
 const products = [
   {
     id: 1,
@@ -13,7 +17,8 @@ const products = [
     description: "Perfect for trying out our revolutionary tracking technology",
     features: ["Ultra-thin 0.8mm design", "1-year battery life", "Bluetooth connectivity", "iOS & Android app"],
     badge: null,
-    popular: false
+    popular: false,
+    image: singlePack
   },
   {
     id: 2, 
@@ -24,7 +29,8 @@ const products = [
     description: "Most popular choice - track your essential items",
     features: ["Ultra-thin 0.8mm design", "1-year battery life", "Bluetooth connectivity", "iOS & Android app", "Save $5"],
     badge: "Best Value",
-    popular: true
+    popular: true,
+    image: threePack
   },
   {
     id: 3,
@@ -35,7 +41,8 @@ const products = [
     description: "Maximum protection for all your valuable items",
     features: ["Ultra-thin 0.8mm design", "1-year battery life", "Bluetooth connectivity", "iOS & Android app", "Save $15"],
     badge: "Bundle & Save",
-    popular: false
+    popular: false,
+    image: fivePack
   }
 ];
 
@@ -77,7 +84,7 @@ export function ShopSection() {
               {/* Product Image */}
               <div className="mb-6">
                 <img
-                  src={heroImage}
+                  src={product.image}
                   alt={product.name}
                   className="w-full h-48 object-cover rounded-radius"
                 />

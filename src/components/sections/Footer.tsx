@@ -132,7 +132,7 @@ export function Footer() {
         <div className="border-t border-gray-800 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-gray-400">
-              © 2024 StickTag. All rights reserved.
+              © 2025 StickTag. All rights reserved.
             </p>
             <p className="text-gray-400 text-sm">
               Made with ❤️ for people who hate losing things
